@@ -1,23 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <!-- Navigation -->
     <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
+
+    <!-- Main Content -->
     <main>
-      <h1>Home page</h1>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>This is the main content area where you can display information about your site.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Information about the website or business goes here.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>Details about the services you offer can be placed here.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Here is where you can provide contact information or a form.</p>
+        </section>
     </main>
-  </body>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
